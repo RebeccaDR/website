@@ -32,15 +32,15 @@ body {
 }
 
 .home-left {
-  background-image: url('http://i.imgur.com/AYMShZs.png'); /* Régler opacité directement sur l'image d'abord */
+  background-image: url('./transistor-opacity.png'); /* Régler opacité directement sur l'image d'abord */
 }
 
 .about-left {
-  background-image: url('http://i.imgur.com/Dn7Zegs.png');
+  background-image: url('./tatami-opacity2.png');
 }
 
 .portfolio-left {
-  background-image: url('https://i.imgur.com/XXyteKX.png');
+  background-image: url('kiss-opacity3.png');
 }
 
 .clear {
