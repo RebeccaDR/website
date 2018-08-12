@@ -27,7 +27,7 @@ let banner = document.querySelector('.banner'),
     bannerClose = document.querySelector('#banner-close'),
     cookieAccept = getCookie('cookieAccept');
 
-if (!!cookieAccept) {
+if (!!cookieAccept && cookieAccept == 'true') {
   banner.style.display = 'none';
 } else {
   bannerClose.addEventListener('click', function(){
